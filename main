@@ -1,4 +1,7 @@
---made by astral
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
@@ -25,8 +28,6 @@ Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
 Frame.Position = UDim2.new(0.282797039, 0, 0.110478356, 0)
 Frame.Size = UDim2.new(0, 689, 0, 461)
-Frame.Active = true
-Frame.Draggable = true
 
 ScrollingFrame.Parent = Frame
 ScrollingFrame.Active = true
@@ -53,7 +54,7 @@ UICorner_2.Parent = TextLabel
 faded.Name = "faded"
 faded.Parent = ScreenGui
 faded.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-faded.Position = UDim2.new(0.565594077, 0, 0.214123011, 0)
+faded.Position = UDim2.new(0.523927391, 0, 0.214123011, 0)
 faded.Size = UDim2.new(0, 200, 0, 67)
 faded.Font = Enum.Font.SourceSans
 faded.Text = "Faded"
@@ -101,7 +102,7 @@ UICorner_5.Parent = diamg
 box.Name = "box"
 box.Parent = ScreenGui
 box.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-box.Position = UDim2.new(0.565594077, 0, 0.370159447, 0)
+box.Position = UDim2.new(0.523927391, 0, 0.370159447, 0)
 box.Size = UDim2.new(0, 200, 0, 67)
 box.Font = Enum.Font.SourceSans
 box.Text = "BoxWare"
@@ -117,7 +118,7 @@ UICorner_6.Parent = box
 aim.Name = "aim"
 aim.Parent = ScreenGui
 aim.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-aim.Position = UDim2.new(0.433787167, 0, 0.454441905, 0)
+aim.Position = UDim2.new(0.409828842, 0, 0.461275607, 0)
 aim.Size = UDim2.new(0, 200, 0, 67)
 aim.Font = Enum.Font.SourceSans
 aim.Text = "Aimlock"
